@@ -20,6 +20,11 @@ header{
     width: 1920px;
     z-index: 1;
 }
+#centrum {
+    height: 1500px;
+    width: 192px;
+    background-color: #F5F6FA;
+}
 
 #headerIntro{
 top: 0px;
