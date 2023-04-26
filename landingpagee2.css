@@ -4,7 +4,7 @@ body{
 
 header{
     position: relative;
-    width: 100%;
+    width: auto;
     height: 1570px;
 }
 
@@ -20,22 +20,31 @@ header{
 #headerBackgroundGray{
     position: relative;
     background-color: #F5F6FA;
-    height: 31.21%;
+    height: 50.21%;
     width: 100%;
     z-index: 1;
 }
 
 #headerIntro{
-width: 100%;
-height: 15%;
-background: #FFFFFF 0% 0% no-repeat padding-box;
+width: auto;
+height: 135px;
+background: #FFFFFF;
 opacity: 1;
 }
 
+#headerBlue{
+position: relative;
+opacity: 1;
+background-size: cover;
+background-position: center;
+}
+
 #textHeader1{
-    padding-top: 3.57%;
-    padding-left: 24.32%;
-    height: 17.03%;
+	margin-left:24%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font: normal normal bold 20px/23px arial;
     letter-spacing: 0px;
@@ -44,9 +53,11 @@ opacity: 1;
     float: left;
 }
 #textHeader2{
-    padding-top: 3.57%;
-    padding-left: 72px;
-    height: 17.03%;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font: normal normal bold 20px/23px arial;
     letter-spacing: 0px;
@@ -55,9 +66,11 @@ opacity: 1;
     float: left;
 }
 #textHeader3{
-    padding-top: 3.57%;
-    padding-left: 72px;
-    height: 17.03%;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font: normal normal bold 20px/23px arial;
     letter-spacing: 0px;
@@ -66,9 +79,11 @@ opacity: 1;
     float: left;
 }
 #textHeader4{
-    padding-top: 3.57%;
-    padding-left: 72px;
-    height: 17.03%;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font: normal normal bold 20px/23px arial;
     letter-spacing: 0px;
@@ -78,19 +93,25 @@ opacity: 1;
 }
 
 .logo{
+	margin-left:7%;
+	margin-top:22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     float:left;
-    padding-left: 5.36%;
-    margin-top: 1.91%;
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 
 }
 
 #buttonLogin1{
-    margin-top: 38px;
-    margin-left: 48px;
-    width: 195px;
+	width: 195px;
     height: 60px;
+	margin-left:2.5%;
+	margin-top:38px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     font: normal normal bold 20px/23px arial;
     color: white;
     background: #2A2A72 0% 0% no-repeat padding-box;
@@ -98,16 +119,16 @@ opacity: 1;
     border-radius: 12px;
     opacity: 1;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #textHeader5{
-    padding-top: 272px;
-    height: 70px;
-    width: 964px;
-    text-align: center;
+    margin-left:24.8%;
+	margin-top:272px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width:964px;
     font: normal normal bold 60px/70px arial;
     letter-spacing: 0px;
     color: white;
@@ -115,22 +136,37 @@ opacity: 1;
     float: left;
 }
 #textHeader6{
-    padding-top: 32px;
-    padding-left: 557px;
-    height: 60px;
-    width: 806px;
+	margin-left:24.8%;
+	margin-top:32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: center;
+	width:964px;
     font: normal normal bold 24px/60px arial;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
     float: left;
     line-height: 1.2;
+	clear: left;
+}
+
+#marginbuttonLogin2{
+	width:964px;
+	margin-left:24.8%;
+	margin-top:32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clear: left;
 }
 
 #buttonLogin2{
-    margin-top: 65px;
-    margin-left: 863px;
+	margin-top:32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     width: 195px;
     height: 60px;
     font: normal normal bold 20px/23px arial;
@@ -140,14 +176,16 @@ opacity: 1;
     border-radius: 12px;
     opacity: 1;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	clear: left;
 }
 
 .table{
+    margin-left:28%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
     position: absolute;
-    padding-top: 51.33%;
+    padding-top: -10px;
     z-index: 2;
     width: 1364px;
     height: 764px;
