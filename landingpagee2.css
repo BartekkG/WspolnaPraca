@@ -161,30 +161,30 @@ opacity: 1;
 
 
 
-
-
-
-
-
-
-
-
+#mid{
+    background-color: #F5F6FA;
+    height: 2000px;
+    width: 100%;
+}
 
 
 #top {
     top: 2395px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 915px;
     background: #F5F6FA  0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-
-
 .first {
-top: 3422px;
-left: 903px;
+transform: translate(-50%, -50%);
+left: 50%;
+margin-top:20px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
 width: 100%;
 height: 28px;
 text-align: center;
@@ -196,10 +196,32 @@ opacity: 1;
 
 }
 
+p {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:90px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    font: normal normal normal 32px/37px Arial;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    }
+
 .second {
-    top: 3835px;
-    left: 173px;
-    width: 68px;
+    transform: translate(-50%, -50%);
+    left: 50px;
+    margin-top:-150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
     height: 28px;
     text-align: left;
     font: normal normal bold 24px/28px Arial;
@@ -209,8 +231,13 @@ opacity: 1;
 }
 
 .third {
-    top: 3835px;
-    left: 727px;
+    transform: translate(-50%, -50%);
+    left: 100px;
+    margin-top:-150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 174px;
     height: 28px;
     text-align: left;
@@ -221,9 +248,14 @@ opacity: 1;
 }
 
 .fourth {
-    top: 3835px;
-    left: 1281px;
-    width: 100px;
+    transform: translate(-50%, -50%);
+    left: 65px;
+    margin-top:-150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
     height: 28px;
     text-align: left;
     font: normal normal bold 24px/28px Arial;
@@ -232,36 +264,30 @@ opacity: 1;
     opacity: 1;
 }
 
-p {
-top: 3482px;
-left: 758px;
-width: 100%;
-height: 37px;
-text-align: center;
-font: normal normal normal 32px/37px Arial;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
-}
+
 
 #square1full {
-    position: relative;
+    transform: translate(-50%, -50%);
+    left: 25%;
+    margin-top:550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 530px;
     height: 571px;
     float: left;
 }
 
-#square150 {
-left: 140px;
-width: 530px;
-height: 174px;
-position: relative;
-background-color: #F5F6FA ;
-z-index: 1;
-}
 
 #square1 {
-    left: 140px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 530px;
     height: 397px;
     z-index: 1;
@@ -269,32 +295,33 @@ z-index: 1;
     border-radius: 12px;
     opacity: 1; 
     float: left;
-    position: relative;
     background-color: white;
     padding-top: 60px;
 }
 
 #square2full {
-    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 530px;
     height: 571px;
     float: left;
 }
 
-#square250 {
-    left: 168px;
-    width: 530px;
-    height: 174px;
-    position: relative;
-    z-index: 1;
-    background-color: #F5F6FA;
-}
-
-
 
 #square2 {
-    left: 170px;
-    width: 531px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
     height: 397px;
     background: white 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -308,33 +335,44 @@ z-index: 1;
     
     }
 
-    .ziutek {
+    .ziutek {   
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin-top:80px;
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 0px;
         z-index: 2;
         object-fit: cover;
         cursor: pointer;
-        left:295px ;
+        left: 50% ;
     }
 
     #square3full {
-        position: relative;
+        transform: translate(-50%, -50%);
+        left: 75%;
+        margin-top:550px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 530px;
         height: 571px;
         float: left;
     }
     
-    #square350 {
-        left: 168px;
-        width: 530px;
-        height: 174px;
-        position: relative;
-        z-index: 1;
-        background-color: #F5F6FA;
-    }
+
 
     #square3 {
-    left: 200px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin-top:550px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     position: relative;
     width: 531px;
     height: 397px;
@@ -348,28 +386,41 @@ z-index: 1;
 
 
     .operator {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin-top:80px;
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 0px;
         z-index: 2;
         object-fit: cover;
         cursor: pointer;
-        left:330px ;
+        left: 50% ;
     }
     
 
 
 .krzysiu {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:80px;
     position: absolute;
-    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0px;
+    z-index: 2;
     object-fit: cover;
     cursor: pointer;
-    left: 295px;
+    left: 50% ;
 }
 
 
 
 .pf, .ps , .pt {
+    padding-left: 30px;
     text-align: left;
     font: normal normal medium 20px/28px Arial;
     letter-spacing: 0px;
@@ -379,16 +430,19 @@ z-index: 1;
 }
 
 button {
-height: 60px;
-background: #2A2A72 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 12px;
-opacity: 1;
-margin-left: 160px;
-margin-top: 170px;
-width: 180px;
-
-
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:290px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #2A2A72 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    width: 180px;
 }
 
 h2 {
@@ -402,18 +456,39 @@ opacity: 1;
 #down {
     top: 4202px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 300px;  
     background: #2A2A72 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+
+#name1 {
+    transform: translate(-50%, -50%);
+    left: 40%;
+    margin-top:140px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 23px;
+    text-align: center;
+    font: normal normal medium 20px/28px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    float: left;
     }
 
-
-
-
     #name2 {
-        padding-top: 64px;
-        padding-left: 112px;
+        transform: translate(-50%, -50%);
+        left: 45%;
+        margin-top:140px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 52px;
         height: 23px;
         text-align: center;
@@ -425,8 +500,13 @@ opacity: 1;
         }
 
     #name3 {
-        padding-top: 64px;
-        padding-left: 112px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        margin-top:140px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 52px;
         height: 23px;
         text-align: center;
@@ -438,8 +518,13 @@ opacity: 1;
     }
 
     #name4 {
-        padding-top: 64px;
-        padding-left: 112px;
+        transform: translate(-50%, -50%);
+        left: 55%;
+        margin-top:140px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 52px;
         height: 23px;
         text-align: center;
@@ -449,45 +534,47 @@ opacity: 1;
         opacity: 1;
         float: left;
         }
+
 #name5 {
-    padding-top: 64px;
-    padding-left: 112px;
-    width: 150px;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    margin-top:140px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
     height: 23px;
     text-align: center;
     font: normal normal medium 20px/28px Arial;
     letter-spacing: 0px;
     color: #FFFFFF;
-    float: left;
     opacity: 1;
-            }
+    float: left;
+}
+
 .second_image {
-    padding-top:64px ;
-    margin-left:783px ;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 77px;
     width: 354px;
     float: left;
-    padding-right: 783px;
 }
 
-
-#name1 {
-    padding-top: 64px;
-    padding-left: 526px;
-    width: 52px;
-    height: 23px;
-    text-align: center;
-    font: normal normal medium 20px/28px Arial;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    float: left;
-  
-    }
-
     hr {
+        transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top:200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
        width: 1920px;
-       top: 10px;
     }
 
     .third_image {
@@ -496,6 +583,7 @@ opacity: 1;
     height: 40px;
     float: left;
     }
+
 #tekstt {
 padding-left: 24px;
 width: 237px;
@@ -511,26 +599,24 @@ float: left;
 
 #footer2 {
     background-color: #2A2A72;
-    width: 1920px;
+    width: 100%;
     height: 114px;
 }
 
 .czwarty_image {
-
-padding-left: 1140px;
-float: left;
+padding-right: 100px;
+float: right;
 width: 32px;
 height: 32px;
 }
 
 .piaty_image {
-padding-left: 32px;
-float: left;
+padding-right: 100px;
+float: right;
 
 }
 
 .szosty_image {
-padding-left: 32px;
-float: left;
+padding-right: 100px;
+float: right;
 }
-
