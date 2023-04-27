@@ -26,6 +26,7 @@ header{
 }
 
 #headerIntro{
+position: relative;
 width: auto;
 height: 135px;
 background: #FFFFFF;
@@ -40,7 +41,7 @@ background-position: center;
 }
 
 #textHeader1{
-	margin-left:24%;
+	margin-left:3%;
 	margin-top:56px;
 	display: flex;
 	justify-content: center;
@@ -50,7 +51,7 @@ background-position: center;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader2{
 	margin-left:3%;
@@ -63,7 +64,7 @@ background-position: center;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader3{
 	margin-left:3%;
@@ -76,7 +77,7 @@ background-position: center;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader4{
 	margin-left:3%;
@@ -89,7 +90,7 @@ background-position: center;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 
 .logo{
@@ -107,6 +108,7 @@ background-position: center;
 #buttonLogin1{
 	width: 195px;
     height: 60px;
+    margin-right:3%;
 	margin-left:2.5%;
 	margin-top:38px;
 	display: flex;
@@ -118,11 +120,17 @@ background-position: center;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
     opacity: 1;
-    float: left;
+    float: right;
 }
 
+
+
+
+
 #textHeader5{
-    margin-left:24.8%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
 	margin-top:272px;
 	display: flex;
 	justify-content: center;
@@ -136,8 +144,10 @@ background-position: center;
     float: left;
 }
 #textHeader6{
-	margin-left:24.8%;
-	margin-top:32px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+	margin-top:350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -153,17 +163,19 @@ background-position: center;
 }
 
 #marginbuttonLogin2{
-	width:964px;
-	margin-left:24.8%;
-	margin-top:32px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+	margin-top:250px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	clear: left;
 }
 
 #buttonLogin2{
-	margin-top:32px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+	margin-top:450px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -180,7 +192,6 @@ background-position: center;
 }
 
 .table{
-    margin-left:28%;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -191,6 +202,8 @@ background-position: center;
     height: 764px;
     object-fit: cover;
     cursor: pointer;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 
