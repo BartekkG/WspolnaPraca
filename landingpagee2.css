@@ -24,6 +24,11 @@ header{
     width: 100%;
     z-index: 1;
 }
+#centrum {
+    height: 1500px;
+    width: 192px;
+    background-color: #F5F6FA;
+}
 
 #headerIntro{
 position: relative;
@@ -47,7 +52,8 @@ background-position: center;
 	justify-content: center;
 	align-items: center;
     text-align: left;
-    font: normal normal bold 20px/23px arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -60,7 +66,8 @@ background-position: center;
 	justify-content: center;
 	align-items: center;
     text-align: left;
-    font: normal normal bold 20px/23px arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -73,7 +80,8 @@ background-position: center;
 	justify-content: center;
 	align-items: center;
     text-align: left;
-    font: normal normal bold 20px/23px arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -86,7 +94,8 @@ background-position: center;
 	justify-content: center;
 	align-items: center;
     text-align: left;
-    font: normal normal bold 20px/23px arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -115,6 +124,9 @@ background-position: center;
 	justify-content: center;
 	align-items: center;
     font: normal normal bold 20px/23px arial;
+
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     color: white;
     background: #2A2A72 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -128,6 +140,7 @@ background-position: center;
 
 
 #textHeader5{
+
     transform: translate(-50%, -50%);
     left: 50%;
     position: absolute;
@@ -138,6 +151,13 @@ background-position: center;
 	text-align: center;
 	width:964px;
     font: normal normal bold 60px/70px arial;
+    padding-top: 272px;
+    padding-left: 478px;
+    height: 70px;
+    width: 964px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
@@ -154,6 +174,8 @@ background-position: center;
     text-align: center;
 	width:964px;
     font: normal normal bold 24px/60px arial;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
@@ -181,7 +203,8 @@ background-position: center;
 	align-items: center;
     width: 195px;
     height: 60px;
-    font: normal normal bold 20px/23px arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     color: white;
     background: #2A2A72 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -233,16 +256,18 @@ background-position: center;
 
 
 .first {
-top: 3422px;
+top: 3022px;
 left: 903px;
 width: 100%;
 height: 28px;
 text-align: center;
-font: normal normal bold 24px/28px Arial;
+font-size: 24px;
+font-family: 'Karla', sans-serif;
 letter-spacing: 0px;
 color: #2A2A72;
 text-transform: uppercase;
 opacity: 1;
+padding-top: 112px;
 
 }
 
@@ -252,7 +277,8 @@ opacity: 1;
     width: 68px;
     height: 28px;
     text-align: left;
-    font: normal normal bold 24px/28px Arial;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -264,7 +290,8 @@ opacity: 1;
     width: 174px;
     height: 28px;
     text-align: left;
-    font: normal normal bold 24px/28px Arial;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -276,7 +303,8 @@ opacity: 1;
     width: 100px;
     height: 28px;
     text-align: left;
-    font: normal normal bold 24px/28px Arial;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
@@ -288,7 +316,8 @@ left: 758px;
 width: 100%;
 height: 37px;
 text-align: center;
-font: normal normal normal 32px/37px Arial;
+font-size: 32px;
+font-family: 'Karla', sans-serif;
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;
@@ -312,8 +341,8 @@ z-index: 1;
 
 #square1 {
     left: 140px;
-    width: 530px;
-    height: 397px;
+    width: 515px;
+    height: 300px;
     z-index: 1;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
@@ -322,6 +351,7 @@ z-index: 1;
     position: relative;
     background-color: white;
     padding-top: 60px;
+    padding-left: 15px;
 }
 
 #square2full {
@@ -340,12 +370,10 @@ z-index: 1;
     background-color: #F5F6FA;
 }
 
-
-
 #square2 {
     left: 170px;
-    width: 531px;
-    height: 397px;
+    width: 516px;
+    height: 300px;
     background: white 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
@@ -354,6 +382,7 @@ z-index: 1;
     z-index: 1;
     position: relative;
     padding-top: 60px;
+    padding-left: 15px;
     
     
     }
@@ -386,14 +415,15 @@ z-index: 1;
     #square3 {
     left: 200px;
     position: relative;
-    width: 531px;
-    height: 397px;
+    width: 516px;
+    height: 300px;
     background: white 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
     opacity: 1;
     float: left;
     padding-top: 60px;
+    padding-left: 15px;
     }
 
 
@@ -421,7 +451,8 @@ z-index: 1;
 
 .pf, .ps , .pt {
     text-align: left;
-    font: normal normal medium 20px/28px Arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -434,16 +465,18 @@ background: #2A2A72 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 12px;
 opacity: 1;
-margin-left: 160px;
-margin-top: 170px;
-width: 180px;
+margin-left: 130px;
+margin-top: 62px;
+width: 234px;
+
 
 
 }
 
 h2 {
 text-align: center;
-font: normal normal bold 20px/23px Arial;
+font-size: 20px;
+font-family: 'Karla', sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -467,7 +500,8 @@ opacity: 1;
         width: 52px;
         height: 23px;
         text-align: center;
-        font: normal normal medium 20px/28px Arial;
+        font-size: 20px;
+        font-family: 'Karla', sans-serif;
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
@@ -480,7 +514,8 @@ opacity: 1;
         width: 52px;
         height: 23px;
         text-align: center;
-        font: normal normal medium 20px/28px Arial;
+        font-size: 20px;
+        font-family: 'Karla', sans-serif;
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
@@ -493,7 +528,8 @@ opacity: 1;
         width: 52px;
         height: 23px;
         text-align: center;
-        font: normal normal medium 20px/28px Arial;
+        font-size: 20px;
+        font-family: 'Karla', sans-serif;
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
@@ -501,11 +537,12 @@ opacity: 1;
         }
 #name5 {
     padding-top: 64px;
-    padding-left: 112px;
-    width: 150px;
+    padding-left: 62px;
+    width: 200px;
     height: 23px;
     text-align: center;
-    font: normal normal medium 20px/28px Arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
     float: left;
@@ -527,7 +564,8 @@ opacity: 1;
     width: 52px;
     height: 23px;
     text-align: center;
-    font: normal normal medium 20px/28px Arial;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -551,7 +589,8 @@ padding-left: 24px;
 width: 237px;
 height: 22px;
 text-align: left;
-font: normal normal medium 18px/22px Arial;
+font-size: 18px;
+font-family: 'Karla', sans-serif;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
