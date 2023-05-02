@@ -1,7 +1,11 @@
+body{
+    height: 100%;
+}
+
 header{
     position: relative;
-    width: 100%;
-    height: 400px;
+    width: auto;
+    height: 1570px;
 }
 
 #headerBackgroundFoto {
@@ -9,15 +13,15 @@ header{
     background-image: url(Backgroundphoto/Backgroundphoto.jpg);
     background-size: cover;
     background-position: center;
-    height: 1080px;
-    width: 1920px;
+    height: 68.79%;
+    width: 100%;
     z-index: 1;
 }
 #headerBackgroundGray{
     position: relative;
     background-color: #F5F6FA;
-    height: 490px;
-    width: 1920px;
+    height: 50.21%;
+    width: 100%;
     z-index: 1;
 }
 #centrum {
@@ -27,77 +31,100 @@ header{
 }
 
 #headerIntro{
-top: 0px;
-left: 0px;
-width: 1920;
+position: relative;
+width: auto;
 height: 135px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
+background: #FFFFFF;
 opacity: 1;
 }
 
+#headerBlue{
+position: relative;
+opacity: 1;
+background-size: cover;
+background-position: center;
+}
+
 #textHeader1{
-    padding-top: 53px;
-    padding-left: 467px;
-    height: 23px;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader2{
-    padding-top: 53px;
-    padding-left: 72px;
-    height: 23px;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader3{
-    padding-top: 53px;
-    padding-left: 72px;
-    height: 23px;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 #textHeader4{
-    padding-top: 53px;
-    padding-left: 72px;
-    height: 23px;
+	margin-left:3%;
+	margin-top:56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: left;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
     color: #2A2A72;
     opacity: 1;
-    float: left;
+    float: right;
 }
 
 .logo{
+	margin-left:7%;
+	margin-top:22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     float:left;
-    padding-left: 140px;
-    padding-top: 30px;
-    width: 344px;
-    height: 75px;
+    max-width: auto;
+    height: auto;
+
 }
 
 #buttonLogin1{
-    margin-top: 38px;
-    margin-left: 48px;
-    width: 195px;
+	width: 195px;
     height: 60px;
+    margin-right:3%;
+	margin-left:2.5%;
+	margin-top:38px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font: normal normal bold 20px/23px arial;
+
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     color: white;
@@ -105,13 +132,25 @@ opacity: 1;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
     opacity: 1;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: right;
 }
 
+
+
+
+
 #textHeader5{
+
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+	margin-top:272px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width:964px;
+    font: normal normal bold 60px/70px arial;
     padding-top: 272px;
     padding-left: 478px;
     height: 70px;
@@ -125,11 +164,16 @@ opacity: 1;
     float: left;
 }
 #textHeader6{
-    padding-top: 32px;
-    padding-left: 557px;
-    height: 60px;
-    width: 806px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+	margin-top:350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: center;
+	width:964px;
+    font: normal normal bold 24px/60px arial;
     font-size: 24px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0px;
@@ -137,11 +181,26 @@ opacity: 1;
     opacity: 1;
     float: left;
     line-height: 1.2;
+	clear: left;
+}
+
+#marginbuttonLogin2{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+	margin-top:250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #buttonLogin2{
-    margin-top: 65px;
-    margin-left: 863px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+	margin-top:450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     width: 195px;
     height: 60px;
     font-size: 20px;
@@ -152,21 +211,22 @@ opacity: 1;
     border-radius: 12px;
     opacity: 1;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	clear: left;
 }
 
 .table{
+    display: flex;
+	justify-content: center;
+	align-items: center;
     position: absolute;
-    top: 0;
-    padding-top: 802px;
-    padding-left: 278px;
+    padding-top: -10px;
     z-index: 2;
     width: 1364px;
     height: 764px;
     object-fit: cover;
     cursor: pointer;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 
